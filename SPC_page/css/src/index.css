@@ -25,7 +25,7 @@
 /* header_box안의 컨테이너*/
 #header_box .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     width: 1700px;
     max-width: 1920px;
     min-width: 300px;
@@ -71,7 +71,6 @@
 
 /*기본 header 영역*/
 #header_box .header_nav .main_menu {
-
     display: flex;
     gap: 90px;
     align-items: center;

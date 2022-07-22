@@ -202,7 +202,7 @@
 }
 
 .ceo_content {
-  width: 82%; height: 600px;
+  width: 90%; height: 600px;
   position:relative;
   margin: 0 auto;
 }
@@ -210,7 +210,7 @@
 .ceo_content::before {
   display: block; content: '';
   position: absolute;
-  top: 0; left: -150px;
+  top: 0; left: -250px;
   width: 610px; height:867px;
   background-color: #d1ebfa;
   border-radius: 0 40px 0 0;
@@ -219,13 +219,27 @@
 .ceo_content .img_wrap {
   border-radius: 30px; overflow: hidden;
   z-index: 10; position:absolute;
-  left: 200px; top:50px;
+  left:00px; top:50px;
+  margin-right:200px;
 }
 
 .main_text {
+  width:900px; float:right; padding:50px
 }
 
 .main_text p {
-  font-size: 20px;
-  font-weight: 400;
+  font-size: 1.16rem;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+/* sign_warp */
+.main_text .ceo_sign {
+  color:#adadad;
+  font-size: 16px;
+  display:inline-block;
+}
+
+.sign_warp img {
+  margin-left: 40px;
 }
