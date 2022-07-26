@@ -25,7 +25,7 @@
 /* header_box안의 컨테이너*/
 #header_box .container {
     display: flex;
-    justify-content: center;
+    justify-content:space-around;
     width: 1700px;
     max-width: 1920px;
     min-width: 300px;
