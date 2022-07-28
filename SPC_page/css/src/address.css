@@ -177,3 +177,178 @@
   width: 100%;
   left: 0;
 }
+
+#address_wrap {
+  width: 82%; max-width:1550px;
+  padding-top:88px;
+  margin:0 auto;
+}
+
+#address_wrap .address_title {
+  padding: 100px 50px 103px;
+}
+
+#address_wrap .address_title h2 {
+  font-size: 65px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+#address_wrap .address_title p {
+  font-size: 18px;
+  color:#7D7D7D;
+  font-weight: 600;
+}
+
+.container {
+  width: 100%; height:100%;
+  display: flex;
+}
+
+.main_bg {
+  width: auto; height: auto;
+  margin-right: 2%;
+}
+
+.main_bg img {
+  width: 764px; height: 868px;
+  border-radius: 50px;
+}
+
+.map img {
+  width: 637px; height: 310px;
+}
+
+.transfer {
+  width: auto; height: auto;
+  margin-top: 60px;
+}
+
+.car_wrap {
+  width: auto; height: auto;
+  border-bottom: 1px solid #eaeaea;
+  padding: 45px 0 40px;
+  position: relative;
+}
+
+.car_use {
+  margin-bottom: 30px;
+}
+
+.transfer .car_use img {
+  width: 50px;
+}
+
+.transfer .car {
+  font-size: 24px;
+  font-weight:bold;
+  margin-left: 20px;
+  position: absolute;
+  top: 50px;
+}
+
+.transfer .car_way {
+  font-size: 18px;
+  color: #7D7D7D;
+}
+
+.subway_wrap {
+  width: auto; height: auto;
+  border-bottom: 1px solid #eaeaea;
+  padding: 45px 0 40px;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.subway_use {
+  margin-bottom: 30px;
+}
+
+.subway_use img {width: 50px;}
+
+.transfer .subway {
+  font-size: 24px;
+  font-weight:bold;
+  margin-left: 20px;
+  position: absolute;
+  top: 60px;
+}
+
+.subway_box {
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+}
+
+.subway_box .info_tag {
+  width: 244px; height: 44px;
+  line-height: 44px;
+  background-color: #F57735;
+  text-align: center;
+  color:#fff;
+  border-radius: 50px;
+}
+
+.subway_box .info_txt {
+  color:#7d7d7d;
+  margin-left: 30px;
+}
+
+.bus_wrap {
+  width: auto; height: auto;
+  border-bottom: 1px solid #eaeaea;
+  padding: 45px 0 40px;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.bus_use {
+  margin-bottom: 30px;
+}
+
+.bus_use img {width: 50px;}
+
+.transfer .bus {
+  font-size: 24px;
+  font-weight:bold;
+  margin-left: 20px;
+  position: absolute;
+  top: 60px;
+}
+
+.bus_box {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.info_tag_nomarl {
+  width:82px; height: 44px;
+  background-color: #7D7D7D;
+  line-height: 44px;
+  text-align: center;
+  color:#fff;
+  border-radius: 50px;
+  float: left;
+}
+
+.info_tag_town {
+  width:82px; height: 44px;
+  background-color: #87c700;
+  line-height: 44px;
+  text-align: center;
+  color:#fff;
+  border-radius: 50px;
+  float: left;
+}
+
+.bus_box .info_txt {
+  color:#7d7d7d;
+  padding-left: 100px;
+  margin-bottom: 20px;
+}
+
+.info_tag_nomarl, .info_tag_town {
+  content:'';
+  display:block;
+  clear:both;
+}
