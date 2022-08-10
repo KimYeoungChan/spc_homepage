@@ -176,5 +176,64 @@
 #ciImgcontent .bg {
   margin: 0 auto; padding:50px 50px;
   width: 1440px; height: 397px; border-radius: 30px;
-  background-color: #fff; 
+  background-color: #fff;
+  display: flex;
+}
+
+.logo {
+  width:80%; height: 100%;
+  background-color: #fdd;
+}
+
+.CI_logo {
+  width:281px; height:201px;
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size:auto;
+  background-image: url(/img/spc_ci_img/CI_logo.png);
+  padding: 150px 0 0 300px;
+}
+
+.pantone_wrap {
+  width: 100%; height: 100%;
+  background-color: #fad;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
+
+.pantone_wrap li {
+  width:220px; height: 270px;
+}
+
+.pantone_box {
+  width: 100%; height:270px;
+  border-radius:30px;
+  background-color: #fdd;
+  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 5%);
+}
+
+.pantone_wrap .top {
+  width:100%; height:50%;
+  box-sizing: border-box;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  background-color: #30b3e7;
+}
+
+.pantone_wrap .top p {
+  padding-left: 30px; padding-top: 30px;
+  color:#fff;
+}
+
+.pantone_wrap .bottom {
+  box-sizing: border-box;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  width: 100%;height:60%;
+  background-color: #fff;
+}
+
+.pantone_wrap .bottom p {
+  margin: 1rem 0; 
 }

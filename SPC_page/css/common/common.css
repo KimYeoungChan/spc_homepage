@@ -250,10 +250,15 @@
 }
 
 .font_18_b{
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
 }
 
+.font_16_g{
+  font-size: 18px;
+  font-weight:700;
+  color:#7d7d7d;
+}
 
 .font_14 {
   font-size: 14px;
