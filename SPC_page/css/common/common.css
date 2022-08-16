@@ -207,6 +207,12 @@
 
 
 /* font-size  64px bold(페이지 제목 사이즈), 50px bold , 24px bold, 24px medium, 20px bold, 18px medium */
+
+.font_65 {
+  font-size: 65px;
+  font-weight: 700;
+}
+
 .font_50{
   font-size: 50px;
   font-weight: 700;
@@ -233,6 +239,11 @@
   font-size: 30px;
 }
 
+.font_28 {
+  font-size:28px;
+  font-weight:700;
+}
+
 .font_20{
   font-size: 20px;
   font-weight: 700;
@@ -246,7 +257,7 @@
 .font_18{
   font-size: 18px;
   font-weight: 400;
-  color:#7d7d7d;
+  /* color:#7d7d7d; */
 }
 
 .font_18_b{
