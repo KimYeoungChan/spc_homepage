@@ -1,0 +1,714 @@
+/*header/////////////////////////////////////////////////////////////////////////////////////////////*/
+#header_box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 10px;
+    z-index: 1000;
+    background-color: white;
+  }
+  
+  #header_box:hover .main_li {
+    color: #000000 !important;
+  }
+  
+  /* header_box안의 컨테이너*/
+  #header_box .container {
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+    max-width: 1920px;
+    min-width: 300px;
+    height: 50px;
+    margin: auto;
+    background-color: transparent;
+    /* background-color:rgb(126, 199, 148);     */
+  }
+  
+  /*logo */
+  #header_box .container h1 {
+    width: 150px;
+    height: 50px;
+  }
+  
+  #header_box .container a {
+    width: 150px;
+    height: 50px;
+  }
+  
+  .logo_img {
+    width: 150px;
+    height: 50px;
+    background-image: url(../../img/main_img/header_box/gnb_logo_new.png);
+    background-repeat: no-repeat;
+    background-size: 150px 50px;
+  }
+  
+  /*logo */
+  /*/////////////////////*/
+  /*navigation*/
+  #header_box .header_nav {
+    width: auto;
+    height: auto;
+  }
+  
+  #header_box .header_nav h2 {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+  }/* 안보이게*/
+  
+  
+  /*기본 header 영역*/
+  #header_box .header_nav .main_menu {
+  
+    display: flex;
+    gap: 90px;
+    align-items: center;
+    height: 100%;
+    list-style-type: none;
+  }
+  
+  #header_box .header_nav .main_li {
+    width: auto;
+    height: auto;
+    color: #000000 !important;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .header_nav .main_li a:hover {
+    color: #23afe3;
+    cursor: pointer;
+  }
+  
+  #header_box .header_nav .main_li:last-child {
+    width: 30px;
+    height: 30px;
+    background: url(../../img/main_img/header_box/global_icon_black.png) no-repeat center center / contain !important;
+    cursor: pointer;
+  }/*기본 header 영역*/
+  
+  
+  /* 오버시 header 영역*/
+  #header_box .menu_hover_box {position:absolute; left:0; right:0; background:#fff; top:80px; height:0; border-top:1px solid #dddddd; transition:all .2s linear; -webkit-transition:all .2s linear; opacity:0;}
+  #header_box:hover .menu_hover_box {height:300px; opacity:1;}
+  #header_box .sub_menu_box {background:transparent; height:0; bottom:-1px; transition:all .2s linear; -webkit-transition:all .2s linear; opacity:0; visibility:hidden}
+  #header_box:hover .sub_menu_box {opacity:1; visibility:visible;}
+  #header_box .sub_menu {padding-top: 60px;}
+  #header_box .sub_menu li {padding-bottom: 15px;}
+  #header_box .sub_menu li a {position:relative; color:transparent; transition:all .2s linear; -webkit-transition:all .2s linear; }
+  #header_box .sub_menu li a:before {content:""; position:absolute; bottom:-4px; width:0; height:1px; left:50%; background:#23afe3; transition:all .2s linear; -webkit-transition:all .2s linear;}
+  #header_box:hover .sub_menu li a {margin-top:10px; color:#666;}
+  #header_box:hover .sub_menu li a:hover {color: #23afe3;}
+  #header_box:hover .sub_menu li a:hover:before {width:100%; left:0;}
+  /*navigation*/
+  
+  /*header/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/*section_box1 (SPC CAREERS 소개)////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+#section_box1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 250px;
+    /* background-color: #fda; */
+    margin-top: 80px;
+    padding-top: 70px;
+ 
+} /*SPC CAREERS 소개 전체 영역*/
+
+#section_box1 .container {
+    width: 1440px;
+    height: auto;
+} /*SPC CAREERS 소개 위치 영역*/
+
+#section_box1 .container .spc_careers_text_wrap {
+    width: 100%;
+    height: 150px;
+    background-color: #fff;
+} /*SPC CAREERS 소개 위치 영역 -> text_wrap*/
+
+#section_box1 .container .spc_careers_title {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+} /*SPC CAREERS 소개 위치 영역 -> text_wrap -> title 제목*/
+
+#section_box1 .container .spc_careers_text {
+    color: #7d7d7d;
+    text-transform: uppercase;
+} /*SPC CAREERS 소개 위치 영역 -> text_wrap -> text 설명*/
+
+/*section_box1 (SPC CAREERS 소개)////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*tab_menu (SPC CAREERS tab_menu)////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+#tab_menu_box {
+    position: relative;
+    width: 100%;
+    height: 144px;
+    border-top: 1px solid #d7d7d7;
+} /* 탭 메뉴 전체 영역*/
+
+#tab_menu_box .container {
+    width: 1440px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #fff;
+} /* 탭 메뉴 위치 영역*/
+
+#tab_menu_box .container .tab_main_menu_ul {
+    width: 100%;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+} /* 탭 메뉴 -> 메인 메뉴 ul */
+
+#tab_menu_box .tab_main_menu_li > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 720px;
+    height: 72px;
+    border-right: 1px solid #d7d7d7;
+    margin-right: -1px;
+} /* 탭 메뉴 -> 메인 메뉴 ul -> li */
+
+#tab_menu_box .tab_main_menu_li:first-child {
+    border-left: 1px solid #d7d7d7;
+} /* 탭 메뉴 -> 메인 메뉴 ul -> li 첫요소 */
+
+#tab_menu_box .tab_main_menu_li > a:hover {
+    color: #ffffff;
+    background-color: var(--color-sky);
+
+} /* 탭 메뉴 -> 메인 메뉴 ul -> li -> a 오버시 */
+
+.tab_main_menu_li.active {
+    color: var(--color-sky);
+    border-bottom: 2px solid var(--color-sky);
+} /* 탭 메뉴 -> 메인 메뉴 현재 페이지 active 고정*/
+
+#tab_menu_box .tab_sub_menu_ul {
+    position: absolute; left: 0;
+    display: flex;
+    width: 100%;
+    height: 72px;
+    background-color: #f8f8f8;
+    border-top: 1px solid #d7d7d7;
+} /* 탭 메뉴 -> 서브 메뉴 ul*/
+
+#tab_menu_box .tab_sub_menu_li {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 72px;
+} /* 탭 메뉴 -> 서브 메뉴 li들*/
+
+#tab_menu_box .tab_sub_menu_li > a{
+    display: flex; align-items: center; justify-content: flex-end;
+    width: 100%;
+    height: 72px;
+
+    box-sizing: border-box;
+    padding:0 48px;
+
+    font-weight: 700;
+} /* 탭 메뉴 -> 서브 메뉴 li -> a*/
+
+#tab_menu_box .tab_sub_menu_li:nth-child(2)::before{
+    display: block;
+    content: '';
+    width: 1px;
+    height: 20px;
+    background-color: #d7d7d7;
+} /* 탭 메뉴 -> 서브 메뉴 li 2번째 -> before:: 선 만들기*/
+
+#tab_menu_box .tab_sub_menu_li:nth-child(2) > a {
+    justify-content: flex-start;
+    color: #afafaf;
+} /* 탭 메뉴 -> 서브 메뉴 li 2번째-> a*/
+
+#tab_menu_box .tab_sub_menu_li:nth-child(2) > a:hover {
+    color: #000000;
+} /* 탭 메뉴 -> 서브 메뉴 li 2번째 -> a 오버시 */
+
+/*tab_menu (SPC CAREERS tab_menu)////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*section_box2 (SPC CAREERS banner_image)////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+#section_box2{
+  width: 100%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url("../../img/spc_system_img/system_banner.jpg");
+} /* SPC CAREERS banner_image*/
+
+/*section_box2 (SPC CAREERS banner_image)////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*section_box3 (SPC 인재상, 인재양성전략)////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+#section_box3{
+  width: 100%;
+  height: 1100px;
+} /* SPC 인재상, 인재양성전략 전체 영역*/
+
+#section_box3 .container{
+  width: 1440px;
+  height: auto;
+  margin: 100px auto;
+  /* background-color: #fda; */
+} /* SPC 인재상, 인재양성전략 위치 영역*/
+
+#section_box3 .container .talent_title {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+} /* SPC 인재상, 인재양성전략 위치 영역 -> 인재상,인재양성전략 TITLE*/
+
+#section_box3 .container .talent_text {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 60px;
+} /* SPC 인재상, 인재양성전략 위치 영역 -> 인재상,인재양성전략 TEXT*/
+
+#section_box3 .container .talent_card_box{
+  width: 100%;
+  height: 550px;
+  /* background-color: #fdd; */
+  box-sizing: border-box;
+  padding: 25px 0;
+} /* SPC 인재상, 인재양성전략 위치 영역 -> 인재 CARD BOX*/
+
+#section_box3 .container .talent_card_ul{
+  display: flex; gap: 10px;
+  width: 100%;
+  height: 500px;
+}  /* SPC 인재상, 인재양성전략 위치 영역 -> 인재 CARD BOX -> card_ul*/
+
+#section_box3 .container .talent_card_li{
+  position: relative;
+  width: 352.5px;
+  height: 500px;
+  border-radius: 30px;
+  box-sizing: border-box;
+  padding: 120px 10px 10px 10px;
+  color: #ffffff;
+} /* SPC 인재상, 인재양성전략 위치 영역 -> 인재 CARD BOX -> card_li들*/
+
+/* /////////////////////// SPC CAREER talent_card 이미지 경로 ///////////////////////*/
+#section_box3 .container .talent_card_image_01{
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-image: url("../../img/spc_system_img/talent_image_01.jpg");
+} /* 리더십 */
+
+#section_box3 .container .talent_card_image_02{
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-image: url("../../img/spc_system_img/talent_image_02.jpg");
+} /* 글로벌 */
+
+#section_box3 .container .talent_card_image_03{
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-image: url("../../img/spc_system_img/talent_image_03.jpg");
+} /* 핵심직무 */
+
+#section_box3 .container .talent_card_image_04{
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-image: url("../../img/spc_system_img/talent_image_04.jpg");
+} /* 핵심가치 */
+
+/* /////////////////////// SPC CAREER talent_card 이미지 경로 /////////////////////// */
+
+#section_box3 .container .talent_card_text_wrap {
+  position: absolute;
+  width: 340px;
+  height: 350px;
+  
+  text-align: center;
+  color: #ffffff;
+} /* SPC 인재상, 인재양성전략 위치 영역 -> 인재 CARD BOX -> card_li들 -> card_text_모음*/
+
+#section_box3 .container .talent_card_title{
+  margin-bottom: 60px;
+} /* SPC 인재상, 인재양성전략 위치 영역 -> 인재 CARD BOX -> card_li들 -> card_text_모음 -> card_title (카드제목)*/
+
+#section_box3 .container .talent_card_explain{
+  height: 110px;
+  margin-bottom: 50px;
+} /* SPC 인재상, 인재양성전략 위치 영역 -> 인재 CARD BOX -> card_li들 -> card_text_모음 -> card_설명 (카드설명)*/
+
+#section_box3 .container .talent_card_oval{
+  width: 200px;
+  height: 70px;
+  border-radius: 50px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 20px;
+
+  text-transform: capitalize;
+  line-height: 24px;
+
+  background-color: #1e2432;
+} /* SPC 인재상, 인재양성전략 위치 영역 -> 인재 CARD BOX -> card_li들 -> card_text_모음 -> 타원형 텍스트 (부제목)*/
+
+#section_box3 .container .talent_card_oval_big {
+  width: 260px;
+  height: 70px;
+  border-radius: 50px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 20px;
+
+  text-transform: capitalize;
+  line-height: 24px;
+
+  background-color: #1e2432;
+} /* SPC 인재상, 인재양성전략 위치 영역 -> 인재 CARD BOX -> card_li들 -> card_text_모음 -> 큰 타원형 텍스트 (부제목)*/
+
+/*section_box3 (SPC 인재상, 인재양성전략)////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*section_box4 (인사제도) ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+#section_box4{
+  width: 100%;
+  height: 1800px;
+} /* SPC 인사제도 전체 영역*/
+
+#section_box4 .container{
+  width: 1440px;
+  height: auto;
+  margin: 100px auto;
+  /* background-color: #fda; */
+} /* SPC 인사제도 위치 영역*/
+
+
+#section_box4 .container .personnel_title{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+} /* SPC 인사제도 위치 영역 -> 인사제도 title*/
+
+#section_box4 .container .personnel_text_oval{
+  width: 100%;
+  margin:60px 0;
+} /* SPC 인사제도 위치 영역 -> 평가/보상제도 타원형 text*/
+
+.personnel_text_oval > p {
+  display: flex; align-items: center; justify-content: center;
+  width: 400px; height: 100px;
+  margin: 0 auto;
+  border-radius: 50px;
+
+  color: #ffffff;
+  line-height: 50px;
+
+  background-color: #23afe3;
+} /* SPC 인사제도 위치 영역 -> 평가/보상제도 타원형 text -> 글씨 및 위치*/
+
+#section_box4 .container .personnel_text{
+  width: 100%;
+  margin:60px 0;
+  text-align: center;
+  font-weight: 700;
+} /* SPC 인사제도 위치 영역 -> 평가/보상제도 text*/
+
+#section_box4 .container .personnel_box{
+  width: 100%;
+  height: 500px;
+  margin-bottom: 60px;
+} /* SPC 인사제도 위치 영역 -> 평가/보상제도 box*/
+
+#section_box4 .container .personnel_wrap{
+  display: flex;
+  width: 1350px;
+  height: 350px;
+  margin: 0 auto;
+} /* SPC 인사제도 위치 영역 -> 평가/보상제도 box -> 업적평가 + 역량평가 = 종합평가 전체 wrap*/
+
+#section_box4 .container .plus_wrap{
+  position: relative;
+  display: flex; align-items: center; justify-content: space-around; gap: 100px;
+  width: 800px; height: 350px;
+  border-radius: 300px;
+  background-color: #f2f2f2;
+} /* SPC 인사제도 위치 영역 -> 평가/보상제도 box -> plus wrap (업적평가 + 역량평가) */
+
+#section_box4 .container .inner_circle{
+  width: 300px; height: 300px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 50px;
+} /* SPC 인사제도 위치 영역 -> 평가/보상제도 box -> 업적평가, 역량평가, 종합평가 내부 circle*/
+
+#section_box4 .container .plus_icon{
+  position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);
+  width: 30px; height: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url("../../img/spc_system_img/careers-i07.png");
+} /* SPC 인사제도 위치 영역 -> 평가/보상제도 box -> plus wrap (업적평가 + 역량평가) -> + 아이콘 */
+
+#section_box4 .container .career_image{
+  width: 150px; height: 100px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50% 50%;
+  margin : 0 auto 50px;
+} /* SPC 인사제도 위치 영역 -> 평가/보상제도 box -> plus wrap (업적평가 + 역량평가) -> 업적평가, 역량평가 circle -> career 이미지 위치 */
+
+#section_box4 .container .career_text{
+  text-align: center;
+} /* SPC 인사제도 위치 영역 -> 평가/보상제도 box -> plus wrap (업적평가 + 역량평가) -> 업적평가, 역량평가 circle -> 업적평가, 역량평가 -> p */
+
+
+#section_box4 .container .equal_wrap{
+  position: relative;
+  width: 200px; height: 350px;
+} /* SPC 인사제도 위치 영역 -> 평가/보상제도 box -> equal_wrap */
+
+#section_box4 .container .equal_icon{
+  position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);
+  width: 30px; height: 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url("../../img/spc_system_img/careers-i08.png");
+} /* SPC 인사제도 위치 영역 -> 평가/보상제도 box -> equal_wrap -> = 아이콘 */
+
+#section_box4 .container .value_wrap{
+  display: flex; align-items: center; justify-content: center;
+  width: 350px; height: 350px;
+  border-radius: 50%;
+  background-color: #f2f2f2;
+} /* SPC 인사제도 위치 영역 -> 평가/보상제도 box -> value_wrap */
+
+#section_box4 .container .money_wrap {
+  display: flex; align-items: center; justify-content: space-around; gap: 100px;
+  width: 1200px; height: 350px;
+  border-radius: 300px;
+
+  margin: 0 auto;
+
+  background-color: #f2f2f2;
+}
+
+/* ////////////////////// 인사제도 -> 평가/보상 제도 -> 아이콘 이미지 경로 //////////////////////*/
+
+#section_box4 .container .career_image_01{
+  background-image: url("../../img/spc_system_img/careers-i01.png");
+} /* 업적평가 */
+
+#section_box4 .container .career_image_02{
+  background-image: url("../../img/spc_system_img/careers-i02.png");
+} /* 역량평가 */
+
+#section_box4 .container .career_image_03{
+  background-image: url("../../img/spc_system_img/careers-i03.png");
+} /* 종합평가 */
+
+#section_box4 .container .career_image_04{
+  background-image: url("../../img/spc_system_img/careers-i04.png");
+} /* 기본연봉 */
+
+#section_box4 .container .career_image_05{
+  background-image: url("../../img/spc_system_img/careers-i05.png");
+} /* 개인성과급 */
+
+#section_box4 .container .career_image_06{
+  background-image: url("../../img/spc_system_img/careers-i06.png");
+} /* 조직성과급 */
+
+/* ////////////////////// 인사제도 -> 평가/보상 제도 -> 아이콘 이미지 경로 //////////////////////*/
+
+/*section_box4 (인사제도) ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*section_box5 (복리후생) ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+#section_box5{
+  width: 100%;
+  height: 1900px;
+  background-color: #f8f8f8;
+} /* SPC 복리후생 전체 영역 */
+
+#section_box5 .container{
+  width: 1440px;
+  height: auto;
+  margin: 100px auto;
+  padding-top: 100px;
+  /* background-color: #fda; */
+} /* SPC 복리후생 위치 영역*/
+
+#section_box5 .container .worklife_title{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+} /* SPC 복리후생 위치 영역 -> 복리후생 title*/
+
+#section_box5 .container .worklife_text{
+  width: 100%;
+  margin:60px 0;
+  text-align: center;
+  font-weight: 700;
+} /* SPC 복리후생 위치 영역 -> 복리후생 text*/
+
+#section_box5 .container .worklife_text_oval{
+  width: 100%;
+  margin:60px 0;
+} /* SPC 복리후생 위치 영역 -> 복리후생 타원형 text*/
+
+.worklife_text_oval > p {
+  display: flex; align-items: center; justify-content: center;
+  width: 850px; height: 120px;
+  margin: 0 auto;
+  border-radius: 50px;
+
+  color: #ffffff;
+  text-transform: capitalize;
+  line-height: 50px;
+  
+
+  background-color: #23afe3;
+} /* SPC 복리후생 위치 영역 -> 복리후생 타원형 text -> 글씨 및 위치*/
+
+
+#section_box5 .container .worklife_box {
+  display: flex; align-items: center; justify-content: center;
+  width: 100%;
+  height: 400px;
+  border-radius: 50px;
+  background-color: #fff;
+  box-shadow: 0 0 13px #ccc;
+}  /* SPC 복리후생 위치 영역 -> Work&Life box*/
+
+#section_box5 .container .worklife_ul {
+  width: 650px; height: 300px;
+} /* SPC 복리후생 위치 영역 -> Work&Life box -> Work&Life ul*/
+
+#section_box5 .container .worklife_li {
+  position: relative;
+  display: flex; align-items: center;
+  width: 650px; height: 100px;
+
+  text-transform: uppercase;
+
+  box-sizing: border-box;
+  padding: 0 20px;
+  line-height: 50px;
+} /* SPC 복리후생 위치 영역 -> Work&Life box -> Work&Life li들*/
+
+#section_box5 .worklife_li > p {
+  width: 650px;
+  padding-left: 40px;
+  border-bottom: 1px solid #eaeaea;
+} /* SPC 복리후생 위치 영역 -> Work&Life box -> Work&Life li들 -> p*/
+
+#section_box5 .container .worklife_li::before{
+  position: absolute; top: 50%; transform: translateY(-50%);
+  display: block;
+  content: '';
+  width: 15px; height: 15px;
+  border-radius: 50%;
+  background-color: #23afe3;
+} /* SPC 복리후생 위치 영역 -> Work&Life box -> Work&Life li들 -> ::before (하늘색 점)*/
+
+
+
+#section_box5 .container .health_text_oval{
+  width: 100%;
+  margin:60px 0;
+} /* SPC 복리후생 위치 영역 -> 임직원의 건강과 행복 타원형 text*/
+
+.health_text_oval > p {
+  display: flex; align-items: center; justify-content: center;
+  width: 850px; height: 120px;
+  margin: 0 auto;
+  border-radius: 50px;
+
+  color: #ffffff;
+  text-transform: capitalize;
+  line-height: 50px;
+  
+
+  background-color: #23afe3;
+} /* SPC 복리후생 위치 영역 -> 임직원의 건강과 행복 타원형 text -> 글씨 및 위치*/
+
+
+#section_box5 .container .health_box {
+  display: flex; align-items: center; justify-content: center;
+  width: 100%;
+  height: 500px;
+  border-radius: 50px;
+  background-color: #fff;
+  box-shadow: 0 0 13px #ccc;
+}  /* SPC 복리후생 위치 영역 -> health & happy box*/
+
+#section_box5 .container .health_ul {
+  width: 650px; height: 400px;
+} /* SPC 복리후생 위치 영역 -> health & happy box -> health & happy box ul*/
+
+#section_box5 .container .health_li {
+  position: relative;
+  display: flex; align-items: center;
+  width: 650px; height: 100px;
+
+  text-transform: uppercase;
+
+  box-sizing: border-box;
+  padding: 0 20px;
+  line-height: 50px;
+} /* SPC 복리후생 위치 영역 -> health & happy box -> health & happy box li들*/
+
+#section_box5 .health_li > p {
+  width: 650px;
+  padding-left: 40px;
+  border-bottom: 1px solid #eaeaea;
+} /* SPC 복리후생 위치 영역 -> health & happy box -> health & happy box li들 -> p*/
+
+#section_box5 .container .health_li::before{
+  position: absolute; top: 50%; transform: translateY(-50%);
+  display: block;
+  content: '';
+  width: 15px; height: 15px;
+  border-radius: 50%;
+  background-color: #23afe3;
+} /* SPC 복리후생 위치 영역 -> health & happy box -> health & happy box li들 -> ::before (하늘색 점) */
+
+#section_box5 .container .health_text{
+  width: 100%;
+  margin:30px 0;
+  text-align: right;
+  font-weight: 700;
+  color: #7d7d7d;
+} /* SPC 인사제도 위치 영역 -> 평가/보상제도 text*/
