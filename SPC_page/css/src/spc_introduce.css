@@ -481,7 +481,7 @@
 
 /* 학과 안내 */
 #section_box4 {
-  width: 100%; height:2100px;
+  width: 100%; height:1800px;
   background-color: #ffd;
 }
 
@@ -559,3 +559,111 @@
   background-position: center center;
   background-size:contain;
 }
+
+#section_box5 {
+  width:100%; height: 1000px;
+  background-color: #faa;
+  margin-top:50px;
+}
+
+#section_box5 .container {
+  width:1440px; height: auto;
+  margin:0 auto;
+  background-color: #fff;
+}
+
+#section_box5 .container .map_text_wrap {
+  width:100%; height:auto;
+  background-color: #ddd;
+  display: flex;
+}
+
+#section_box5 .container .map_text_wrap > div { display: inline-block;}
+
+#section_box5 .container .map_text_wrap .map_text_01 {
+   margin-right:15px;
+}
+
+#section_box5 .container .map_text_wrap .map_text_01 span
+{
+  color:var(--color-sky); 
+  position: relative;
+  margin-right:20px;
+}
+#section_box5 .container .map_text_wrap .map_text_01 span::after {
+  width:1px; height:15px;
+  background-color: #7d7d7d;
+  display: block; content:'';
+  position: absolute; top:8px; right:-10px;
+}
+
+#section_box5 .container .map_text_wrap .map_text_01 p {
+  display: inline-block; 
+}
+
+#section_box5 .map_text_wrap .map_text_02 {
+  color: #7d7d7d; 
+}
+
+#section_box5 .container .map_text_wrap .map_text_02 span {
+  position: relative;
+}
+
+#section_box5 .container .map_text_wrap .map_text_02 span:last-child {
+  padding-left:10px;
+}
+
+#section_box5 .container .map_text_wrap .map_text_02 span:first-child::after {
+  width:1px; height:15px;
+  background-color: #7d7d7d;
+  display: block; content:'';
+  position: absolute; top:8px; right:-10px;
+}
+
+#section_box5 .container .map {
+  margin:20px 0;
+  width: 100%; height:330px;
+  background-color: #f2f2f2;
+  border-radius:30px;
+}
+
+#section_box5 .container .transport_wrap {
+  width:100%; height:800px;
+  background-color: #fda;
+}
+
+#section_box5 .container .transport_wrap .subway_wrap {
+  margin:40px 0 0 20px;
+}
+
+#section_box5 .container .transport_wrap .subway_wrap .subway_title {
+  font-weight: bold; margin-top:40px; position: relative;
+}
+#section_box5 .container .transport_wrap .subway_wrap .subway_title img {
+}
+
+#section_box5 .container .transport_wrap .subway_wrap .subway_title p {
+  display:inline-block; position:absolute; top:5px; 
+  margin-left:10px;
+}
+
+#section_box5 .container .transport_wrap .subway_wrap .info {
+  margin-top:20px; color:#7d7d7d;
+  font-size: 18px; font-weight:700;
+  color:#7d7d7d;
+}
+
+#section_box5 .container .transport_wrap .subway_wrap .info span {
+  padding:15px 20px; margin-right:15px;
+  width:400px; height: 50px; line-height:50px;
+  border-radius:50px; color:#fff; font-weight:bold;
+  background-color: #29C531; text-align: center;
+}
+
+#section_box5 .container .transport_wrap .subway_wrap .info:nth-child(2) {
+  padding:
+}
+
+
+
+  
