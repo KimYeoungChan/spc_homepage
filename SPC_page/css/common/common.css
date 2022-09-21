@@ -28,8 +28,14 @@
   width:100%; max-width:1100px; height: auto;
   margin:auto; background-color: #ccc;}
 
+/* 폰트 적용 */
 
-/*main_view_all 버튼*/
+@font-face {
+  src: url(../../fonts/Pretendard-Bold.ttf);
+  font-family: 'Pretendard';
+}
+
+  /*main_view_all 버튼*/
 .main_view_all{
   width: 300px;
   height: 100px;
