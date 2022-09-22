@@ -35,6 +35,10 @@
   font-family: 'Pretendard';
 }
 
+body {
+  font-family: 'Pretendard', 'sans-serif';
+}
+
   /*main_view_all 버튼*/
 .main_view_all{
   width: 300px;
