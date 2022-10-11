@@ -56,7 +56,7 @@
 .logo_img {
     width: 150px;
     height: 50px;
-    background-image: url(../../img/main_img/header_box/gnb_logo_new.png);
+    background-image: url(/img/main_img/header_box/gnb_logo_new.png);
     background-repeat: no-repeat;
     background-size: 150px 50px;
 }
@@ -103,7 +103,7 @@
 #header_box .header_nav .main_li:last-child {
     width: 30px;
     height: 30px;
-    background: url(../../img/main_img/header_box/global_icon_black.png) no-repeat center center / contain !important;
+    background: url(/img/main_img/header_box/global_icon_black.png) no-repeat center center / contain !important;
     cursor: pointer;
 }/*기본 header 영역*/
 
@@ -316,7 +316,7 @@
 #section_box1 .subsidiary_card_li .food_card_image_01{
     width: 450px; height: 240px;
     border-radius: 30px 30px 0px 0px;
-    background-image: url(../../img/spc_subsidiary_img/SPC삽립.png);
+    background-image: url('/img/spc_subsidiary_img/SPC삽립.png');
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
@@ -325,7 +325,7 @@
 #section_box1 .subsidiary_card_li .food_card_image_02{
     width: 450px; height: 240px;
     border-radius: 30px 30px 0px 0px;
-    background-image: url(../../img/spc_subsidiary_img/파리크라상.png);
+    background-image: url('/img/spc_subsidiary_img/파리크라상.png');
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
@@ -334,7 +334,7 @@
 #section_box1 .subsidiary_card_li .food_card_image_03{
     width: 450px; height: 240px;
     border-radius: 30px 30px 0px 0px;
-    background-image: url(../../img/spc_subsidiary_img/비알코리아.png);
+    background-image: url('/img/spc_subsidiary_img/비알코리아.png');
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
@@ -346,7 +346,7 @@
 #section_box1 .subsidiary_card_li .material_card_image_01{
     width: 450px; height: 240px;
     border-radius: 30px 30px 0px 0px;
-    background-image: url(../../img/spc_subsidiary_img/SPL.png);
+    background-image: url('/img/spc_subsidiary_img/SPL.png');
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
@@ -355,7 +355,7 @@
 #section_box1 .subsidiary_card_li .material_card_image_02{
     width: 450px; height: 240px;
     border-radius: 30px 30px 0px 0px;
-    background-image: url(../../img/spc_subsidiary_img/SPC팩.png);
+    background-image: url('/img/spc_subsidiary_img/SPC팩.png');
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
@@ -366,7 +366,7 @@
 #section_box1 .subsidiary_card_li .service_card_image_01{
     width: 450px; height: 240px;
     border-radius: 30px 30px 0px 0px;
-    background-image: url(../../img/spc_subsidiary_img/SPL.png);
+    background-image: url('/img/spc_subsidiary_img/SPL.png');
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
@@ -377,7 +377,7 @@
 #section_box1 .subsidiary_card_li .distribution_card_image_01{
     width: 450px; height: 240px;
     border-radius: 30px 30px 0px 0px;
-    background-image: url(../../img/spc_subsidiary_img/GFS.png);
+    background-image: url('/img/spc_subsidiary_img/GFS.png');
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
@@ -386,7 +386,7 @@
 #section_box1 .subsidiary_card_li .distribution_card_image_02{
     width: 450px; height: 240px;
     border-radius: 30px 30px 0px 0px;
-    background-image: url(../../img/spc_subsidiary_img/타이거\ 인터내셔날.png);
+    background-image: url('/img/spc_subsidiary_img/타이거\ 인터내셔날.png');
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;

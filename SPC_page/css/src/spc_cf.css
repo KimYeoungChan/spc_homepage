@@ -46,7 +46,7 @@
 .logo_img {
     width: 150px;
     height: 50px;
-    background-image: url(../../img/main_img/header_box/gnb_logo_new.png);
+    background-image: url(/img/main_img/header_box/gnb_logo_new.png);
     background-repeat: no-repeat;
     background-size: 150px 50px;
 }
@@ -95,7 +95,7 @@
 #header_box .header_nav .main_li:last-child {
     width: 30px;
     height: 30px;
-    background: url(../../img/main_img/header_box/global_icon_black.png) no-repeat center center / contain !important;
+    background: url(/img/main_img/header_box/global_icon_black.png) no-repeat center center / contain !important;
     cursor: pointer;
 }
 
@@ -208,7 +208,7 @@
 #media_hub_box .container .media_hub_box_image_01 {
     position: absolute; left: 13rem; top: -150px;
     width: 290px; height: 250px;
-    background-image: url(../../img/spc_familychannel_img/media_hub/hub-img04.png);
+    background-image: url(/img/spc_familychannel_img/media_hub/hub-img04.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;

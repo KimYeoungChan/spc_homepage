@@ -17,21 +17,21 @@
   <link rel="shortcut icon" href="/img/favicon.png" type="image/png">
   <link rel="apple-touch-icon" href="/img/favicon.png">
 
-  <title>SPC_main_page</title>
+  <script src="//cdn.jsdelivr.net/npm/eruda"></script>
+<script>eruda.init();</script>
+
+  <title>SPC그룹</title>
 </head>
+
 <body>
-  <!-- layout -->
   <header id="header_box">
     <div class="container">
         <h1>
-            <a href="/index.html">
-                <div class="logo_img">
-                    <span class="blind">spc</span>
-                </div>
+            <a class="logo_img" href="/index.html">
+                <span class="blind">spc</span>
             </a>
         </h1>
         <nav class="header_nav">
-            <h2>navigation</h2>
             <div class="menu_hover_box"></div>
             <ul class="main_menu">
                 <li class="main_li">
@@ -70,17 +70,6 @@
                     </div>
                 </li>
                 <li class="main_li">
-                    <a href="#">esg</a>
-                    <div class="sub_menu_box">
-                        <ul class="sub_menu sub_menu_01">
-                            <li><a href="#">spc 행복한재단</a></li>
-                            <li><a href="#">사회공헌 소개</a></li>
-                            <li><a href="#">사회공헌 소식</a></li>
-                            <li><a href="#">정도경영</a></li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="main_li">
                     <a href="/page/careers/spc_system.html">careers</a>
                     <div class="sub_menu_box">
                         <ul class="sub_menu sub_menu_01">
@@ -98,621 +87,879 @@
                         </ul>
                     </div>
                 </li>
-                <li class="main_li"><span class="blind">language</span></li>
+                <li class="main_li language">
+                    <div class="global_logo"></div>
+                    <div class="scroll_language">
+                        <ul class="scroll_language_ul">
+                            <li class="scroll_language_li">
+                                <a href="#" onclick="alert('한국어로')">KR</a>
+                            </li>
+                            <li class="scroll_language_li">
+                                <a href="#" onclick="alert('영어로')">EN</a>
+                            </li>
+                            <li class="scroll_language_li">
+                                <a href="#" onclick="alert('중국어로')">CN</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </nav>
+        </div>
+    </header>
+
+    <section id="section_box1">
+        <h3 class="blind">section_box1</h3>
+
+        <div class="prev_button_wrap">
+            <div class="prev_button"></div>
+            <p>prev</p>
+        </div>
+        <div class="next_button_wrap">
+            <div class="next_button"></div>
+            <p>next</p>
+        </div>
+        <div class="indicators">
+            <ul>
+                <li class="action"><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+            </ul>
+        </div>
+        <div class="view_area">
+            <ul>
+                <li class="main_view_01"></li>
+                <li class="main_view_02"></li>
+                <li class="main_view_03"></li>
+                <li class="main_view_04"></li>
+            </ul>
+        </div>
+        <div class="container">
+            <div class="main_title_text">
+                <p>Happy Sincerity</p>
+                <div class="solid"></div>
+                <p>spc그룹과 함께</p>
+                <p>세상은 더 행복해집니다.</p>
+            </div>
+        </div>
+
+        <nav class="navigation">
+            <h2 class="blind">sns navigation</h2>
+            <ul>
+                <li class="happy_icon">
+                    <a class="sns_icon" href="https://www.happypointcard.com/page/presentation/app.spc" target="_blank">
+                        <span class="blind">happy point</span>
+                    </a>
+                </li>
+                <li class="instagram_icon">
+                    <a class="sns_icon" href="https://www.instagram.com/spc_group/" target="_blank">
+                        <span class="blind">instagram</span>
+                    </a>
+                </li>
+                <li class="facebook_icon">
+                    <a class="sns_icon" href="https://www.facebook.com/happySPC" target="_blank">
+                        <span class="blind">facebook</span>
+                    </a>
+                </li>
+                <li class="youtube_icon">
+                    <a class="sns_icon" href="https://www.youtube.com/channel/UCiyg3rAdPOJN4eKAgAs5FOQ" target="_blank">
+                        <span class="blind">youtube</span>
+                    </a>
+                </li>
             </ul>
         </nav>
-    </div>
-</header>
-<section id="section_box1">
-    <h1 class="blind">section_box1</h1>
-    
-    <div class="prev_button_wrap">
-        <div class="prev_button"></div>
-        <p>prev</p>
-    </div>
-    <div class="next_button_wrap">
-        <div class="next_button"></div>
-        <p>next</p>
-    </div>
-    <div class="indicators">
-        <ul>
-            <li class="action"><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-        </ul>
-    </div>
-    <div class="view_area">
-        <ul>
-            <li class="main_view_01"></li>
-            <li class="main_view_02"></li>
-            <li class="main_view_03"></li>
-            <li class="main_view_04"></li>
-        </ul>
-    </div>
-    <div class="container">
-        <div class="main_title_text">
-            <p>Happy Sincerity</p>
-            <div class="solid"></div>
-            <p>spc그룹과 함께</p>
-            <p>세상은 더 행복해집니다.</p>
-        </div>
-    </div>
+    </section><!-- SPC 소개글과 배경 슬라이드 박스 -->
 
-    <nav class="navigation">
-        <h2>sns navigation</h2>
-        <ul>
-            <li><a href="https://www.happypointcard.com/page/presentation/app.spc"><span class="blind">happy point</span></a></li>
-            <li><a href="https://www.instagram.com/spc_group/"><span class="blind">instagram</span></a></li>
-            <li><a href="https://www.facebook.com/happySPC"><span class="blind">facebook</span></a></li>
-            <li><a href="https://www.youtube.com/channel/UCiyg3rAdPOJN4eKAgAs5FOQ"><span class="blind">youtube</span></a></li>
-        </ul>
-    </nav>
-    
-</section>
-<section id="section_box2">
-    <h1 class="blind">section_box2</h1>
-    <div class="container">
-        <div class="main_group_text">
+    <section id="section_box2">
+        <h3 class="blind">section_box2</h3>
+        <div class="container">
+            <div class="main_group_text">
                 <h2>spc group</h2>
                 <p>spc그룹은 언제나 고객의 행복을 향합니다.</p>
-        </div>
-        <div class="main_group_card">
-            <ul>
-                <li class="card">
-                    <div class="outline">
-                            <div class="card_title_01">spc way</div>
-                            <div class="card_image_01"><span class="blind">이미지</span></div>
-                            <div class="card_text">
-                                <p>최고의 품질과 <br> 고객중심 창의적 도전으로 <br> 세상을 행복하게 합니다.</p>
-                            </div>
-                    </div>
-                </li>
-                <li class="card">
-                    <div class="outline">
-                            <div class="card_title_02">global spc</div>
-                            <div class="card_image_02"><span class="blind">이미지</span></div>
-                            <div class="card_text">
-                                <p>국경을 초월하여 행복의 맛을 <br> 더 넓은 세상에 전하고 있습니다.</p> 
-                            </div>
-                    </div>
-                </li>
-                <li class="card">
-                    <div class="outline">
-                            <div class="card_title_03">spc history</div>
-                            <div class="card_image_03"><span class="blind">이미지</span></div>
-                            <div class="card_text">
-                                <p>spc그룹은 1945년 이래 <br> 고객과 함께 해온 <br> 종합식품기업입니다.</p>
-                            </div>
-                    </div>
-                </li>
-                <li class="card">
-                    <div class="outline">
-                            <div class="card_title_04">spc 정도경영</div>
-                            <div class="card_image_04"><span class="blind">이미지</span></div>
-                            <div class="card_text">
-                                <p>spc 전 임직원은 공정하고 <br> 투명한기업 경영을 위해 <br> 최선의 노력을 다하고 있습니다.</p>
-                            </div>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </div>
-</section>
-<section id="section_box3">
-    <h1 class="blind">section_box3</h1>
-    <div class="container">
-        <div class="main_brand_wrap_01">
-            <div class="main_brand_text">
-                <h2>spc brand</h2>
-                <p>spc그룹의 다양한 브랜드를 만나보세요.</p>
             </div>
-            <div class="main_brand_tab">
-                <ul>
-                    <li>
-                        <button type="button">
-                            <div class="tab_card">
-                                <div class="tab_icon_01">
-                                    <span class="blind">베이커리/디저트 아이콘</span>
+            <div class="main_group_card">
+                <!-- <ul>
+                    <li class="card">
+                        <div class="outline">
+                                <div class="card_title_01">spc way</div>
+                                <div class="card_image_01"><span class="blind">이미지</span></div>
+                                <div class="card_text">
+                                    <p>최고의 품질과 <br> 고객중심 창의적 도전으로 <br> 세상을 행복하게 합니다.</p>
                                 </div>
-                                <p class="action">베이커리/디저트</p>
-                            </div>
-                        </button>
+                        </div>
                     </li>
-                    <li>
-                        <button type="button">
-                            <div class="tab_card">
-                                <div class="tab_icon_02">
-                                    <span class="blind">외식/다이닝 아이콘</span>
+                    <li class="card">
+                        <div class="outline">
+                                <div class="card_title_02">spc way</div>
+                                <div class="card_image_02"><span class="blind">이미지</span></div>
+                                <div class="card_text">
+                                    <p>국경을 초월하여 행복의 맛을 <br> 더 넓은 세상에 전하고 있습니다.</p> 
                                 </div>
-                                <p>외식/다이닝</p>
-                            </div>
-                        </button>
+                        </div>
                     </li>
-                    <li>
-                        <button type="button">
-                            <div class="tab_card">
-                                <div class="tab_icon_03">
-                                    <span class="blind">카페/음료 아이콘</span>
+                    <li class="card">
+                        <div class="outline">
+                                <div class="card_title_03">spc way</div>
+                                <div class="card_image_03"><span class="blind">이미지</span></div>
+                                <div class="card_text">
+                                    <p>spc그룹은 1945년 이래 <br> 고객과 함께 해온 <br> 종합식품기업입니다.</p>
                                 </div>
-                                <p>카페/음료</p>
-                            </div>
-                        </button>
+                        </div>
                     </li>
-                    <li>
-                        <button type="button">
-                            <div class="tab_card">
-                                <div class="tab_icon_04">
-                                    <span class="blind">유통/서비스 아이콘</span>
+                    <li class="card">
+                        <div class="outline">
+                                <div class="card_title_04">spc way</div>
+                                <div class="card_image_04"><span class="blind">이미지</span></div>
+                                <div class="card_text">
+                                    <p>spc 전 임직원은 공정하고 <br> 투명한기업 경영을 위해 <br> 최선의 노력을 다하고 있습니다.</p>
                                 </div>
-                                <p>유통/서비스</p>
-                            </div>
-                        </button>
+                        </div>
                     </li>
-                </ul>
+                </ul> -->
             </div>
         </div>
-        <div class="main_brand_wrap_02">
-            <div class="prev_button"></div>
-            <div class="main_brand_card">
-                <ul>
-                    <li class="card">
-                        <div class="card_image_01"><span class="blind">파리바게트 image</span></div>
-                    </li>
-                    <li class="card">
-                        <div class="card_image_02"><span class="blind">베스킨라빈스 image</span></div>
-                    </li>
-                    <li class="card">
-                        <div class="card_image_03"><span class="blind">던킨 image</span></div>
-                    </li>
-                    <li class="card">
-                        <div class="card_image_04"><span class="blind">삽립 image</span></div>
-                    </li>
-                    <li class="card">
-                        <div class="card_image_05"><span class="blind">파리 크로아상 image</span></div>
-                    </li>
-                </ul>
-            </div>
-            <div class="next_button"></div>
-        </div>
-        <div class="main_brand_wrap_03">
-            <div class="main_view_all">
-                <p>view all</p>
-            </div>
-        </div>
-    </div>
-</section>
-<section id="section_box4">
-    <h1 class="blind">section_box4</h1>
-    <div class="blind">배너 이미지</div>
-</section>
+    </section><!-- SPC GROUP 박스 -->
 
-<section id="section_box5">
-    <h1 class="blind">section_box5</h1>
-    <div class="container">
-        <div class="main_happypoint_wrap_01">
-            <div class="main_happypoint_text">
-                <h2>spc 해피포인트</h2>
-                <p>해피포인트 app에서 다양한 신제품을 만나보세요.</p>
-            </div>
-            <div class="main_view_all">
-                <p>view all</p>
-            </div>
-        </div>
-        <!-- <div class="main_happypoint_wrap_02"> -->
-            <div class="main_happypoint_card">
-                <ul>
-                    <li class="card">
-                        <div class="outline">
-                            <div class="card_image_01"><span class="blind">이미지</span></div>
-                            <div class="card_text_01">
-                                <a href="https://www.happyconstore.com/">
-                                    <p>가나슈 쇼콜라 케이크(조각)</p>
-                                </a>
-                                <div class="buy">
-                                    <a href="https://www.happyconstore.com/">구매하러 가기</a>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="card">
-                        <div class="outline">
-                            <div class="card_image_02"><span class="blind">이미지</span></div>
-                            <div class="card_text_01">
-                                <a href="https://www.happyconstore.com/">
-                                    <p>달달한 디저트 세트(클래식 치즈 케이크(조각)+아메리카노(시그니처)1잔)</p>
-                                </a>
-                                <div class="buy">
-                                    <a href="https://www.happyconstore.com/">구매하러 가기</a>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="card">
-                        <div class="outline">
-                            <div class="card_image_03"><span class="blind">이미지</span></div>
-                            <div class="card_text_01">
-                                <a href="https://www.happyconstore.com/">
-                                    <p>엄마는 외계인 케이크</p>
-                                </a>
-                                <div class="buy">
-                                    <a href="https://www.happyconstore.com/">구매하러 가기</a>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="card">
-                        <div class="outline">
-                            <div class="card_image_04"><span class="blind">이미지</span></div>
-                            <div class="card_text_01">
-                                <a href="https://www.happyconstore.com/">
-                                    <p>기운 센 콘푸로스트 블라스트</p>
-                                </a>
-                                <div class="buy">
-                                    <a href="https://www.happyconstore.com/">구매하러 가기</a>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="card">
-                        <div class="outline">
-                            <div class="card_image_05"><span class="blind">이미지</span></div>
-                            <div class="card_text_01">
-                                <a href="https://www.happyconstore.com/">
-                                    <p>오레오 쿨라타</p>
-                                </a>
-                                <div class="buy">
-                                    <a href="https://www.happyconstore.com/">구매하러 가기</a>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        <!-- </div> -->
-    </div>
-</section>
-<section id="section_box6">
-    <h1 class="blind">section_box6</h1>
-    <div class="container">
-        <div class="main_news_wrap_01">
-            <div class="main_news_text">
-                <h2>spc news</h2>
-                <p>spc그룹의 최신뉴스를 확인해보세요.</p>
-            </div>
-            <div class="main_news_view">
-                <div class="main_view_left">
-                    <div class="prev_button"></div>
+    <section id="section_box3">
+        <h3 class="blind">section_box3</h3>
+        <div class="container">
+            <div class="main_brand_box">
+                <div class="main_brand_wrap_01">
+                    <div class="main_brand_text">
+                        <h2>spc brand</h2>
+                        <p>spc그룹의 다양한 브랜드를 만나보세요.</p>
+                    </div>
+                    <div class="main_brand_tab">
+                        <!-- <ul>
+                            <li>
+                                <button type="button">
+                                    <div class="tab_card">
+                                        <div class="tab_icon_01">
+                                            <span class="blind">베이커리/디저트 아이콘</span>
+                                        </div>
+                                        <p class="action">베이커리/디저트</p>
+                                    </div>
+                                </button>
+                            </li>
+                            <li>
+                                <button type="button">
+                                    <div class="tab_card">
+                                        <div class="tab_icon_02">
+                                            <span class="blind">외식/다이닝 아이콘</span>
+                                        </div>
+                                        <p>외식/다이닝</p>
+                                    </div>
+                                </button>
+                            </li>
+                            <li>
+                                <button type="button">
+                                    <div class="tab_card">
+                                        <div class="tab_icon_03">
+                                            <span class="blind">카페/음료 아이콘</span>
+                                        </div>
+                                        <p>카페/음료</p>
+                                    </div>
+                                </button>
+                            </li>
+                            <li>
+                                <button type="button">
+                                    <div class="tab_card">
+                                        <div class="tab_icon_04">
+                                            <span class="blind">유통/서비스 아이콘</span>
+                                        </div>
+                                        <p>유통/서비스</p>
+                                    </div>
+                                </button>
+                            </li>
+                        </ul> -->
+                    </div>
                 </div>
-                <div class="main_view_right">
+                <div class="main_brand_wrap_02">
+                    <div class="prev_button"></div>
+                    <div class="main_brand_card">
+                        <!-- <ul>
+                            <li class="card">
+                                <div class="card_image_01"><span class="blind">파리바게트 image</span></div>
+                            </li>
+                            <li class="card">
+                                <div class="card_image_02"><span class="blind">베스킨라빈스 image</span></div>
+                            </li>
+                            <li class="card">
+                                <div class="card_image_03"><span class="blind">던킨 image</span></div>
+                            </li>
+                            <li class="card">
+                                <div class="card_image_04"><span class="blind">삽립 image</span></div>
+                            </li>
+                            <li class="card">
+                                <div class="card_image_05"><span class="blind">파리 크로아상 image</span></div>
+                            </li>
+                        </ul> -->
+                    </div>
                     <div class="next_button"></div>
                 </div>
-                <div class="main_view_all">
-                    <p>view all</p>
+                <div class="main_brand_wrap_03">
+                    <div class="main_view_all">
+                        <a href="/pages/business/spc_brand.html">
+                            <p>view all</p>
+                        </a>
+                    </div>
+                    <div class="mobile_prev_button"></div>
+                    <div class="mobile_next_button"></div>
                 </div>
             </div>
         </div>
-        <div class="main_news_wrap_02">
-            <div class="main_news_card">
-                <ul>
-                    <li class="card">
-                        <div class="outline">
-                            <a href="https://www.happyconstore.com/">
-                            <div class="card_image_01"><span class="blind">이미지</span></div>
-                            <div class="card_text_01">
-                                <div class="card_text_wrap_01">
-                                    <p>spc그룹 파리바게뜨,말레이시아 진출 "할랄시장 본격 공략"</p>
-                                </div>
-                                <div class="card_text_wrap_02">
-                                    <b>2022.06.20</b>
-                                    <div class="view_more">
-                                    <a href="https://www.naver.com/">view more</a>
+    </section><!-- SPC BRAND 박스 -->
+
+    <section id="section_box4">
+        <h3 class="blind">section_box4</h3>
+        <a href="https://www.happyorder.co.kr/?am=main/home">
+            <div class="banner_image">
+                <div class="blind">배너 이미지</div>
+            </div>
+        </a>
+    </section><!-- SPC BANNER 박스 -->
+
+    <section id="section_box5">
+        <h3 class="blind">section_box5</h3>
+        <div class="container">
+            <div class="main_happypoint_box">
+                <div class="main_happypoint_wrap_01">
+                    <div class="main_happypoint_text">
+                        <h2>spc 해피포인트</h2>
+                        <p>해피포인트 app에서 다양한 신제품을 만나보세요.</p>
+                    </div>
+                    <div class="main_view_all">
+                        <a href="/pages/media_hub/spc_familychannel.html">
+                            <p>view all</p>
+                        </a>
+                    </div>
+                </div>
+                <!-- <div class="main_happypoint_wrap_02"> -->
+                <div class="main_happypoint_card">
+                    <ul>
+                        <li class="card">
+                            <div class="outline">
+                                <div class="card_image card_image_01"><span class="blind">이미지</span></div>
+                                <div class="card_text_01">
+                                    <p>가나슈 쇼콜라 케이크(조각)</p>
+                                    <div class="buy">
+                                        <a target="_blank" href="https://www.happyconstore.com/goods/detail.do?goodsNo=1640697299214740">구매하러 가기</a>
                                     </div>
-                                </div>  
+                                </div>
                             </div>
+                        </li>
+                        <li class="card">
+                            <div class="outline">
+                                <div class="card_image card_image_02"><span class="blind">이미지</span></div>
+                                <div class="card_text_01">
+                                    <p>달달한 디저트 세트(클래식 치즈 케이크(조각)+아메리카노(시그니처)1잔)</p>
+                                    <div class="buy">
+                                        <a target="_blank" href="https://www.happyconstore.com/goods/detail.do?goodsNo=1640696915214742">구매하러 가기</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="card">
+                            <div class="outline">
+                                <div class="card_image card_image_03"><span class="blind">이미지</span></div>
+                                <div class="card_text_01">
+                                    <p>엄마는 외계인 케이크</p>
+                                    <div class="buy">
+                                        <a target="_blank" href="https://www.happyconstore.com/goods/detail.do?goodsNo=1641229395214829">구매하러 가기</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="card">
+                            <div class="outline">
+                                <div class="card_image card_image_04"><span class="blind">이미지</span></div>
+                                <div class="card_text_01">
+                                    <p>기운 센 콘푸로스트 블라스트</p>
+                                    <div class="buy">
+                                        <a target="_blank" href="https://www.happyconstore.com/goods/detail.do?goodsNo=1640702349214768">구매하러 가기</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="card">
+                            <div class="outline">
+                                <div class="card_image card_image_05"><span class="blind">이미지</span></div>
+                                <div class="card_text_01">
+                                    <p>오레오 쿨라타</p>
+                                    <div class="buy">
+                                        <a target="_blank" href="https://www.happyconstore.com/goods/detail.do?goodsNo=1638987066214480">구매하러 가기</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- </div> -->
+            </div>
+        </div>
+    </section><!-- SPC HAPPYPOINT 박스 -->
+
+    <section id="section_box6">
+        <h3 class="blind">section_box6</h3>
+        <div class="container">
+            <div class="main_news_box">
+                <div class="main_news_wrap_01">
+                    <div class="main_news_text">
+                        <h2>spc news</h2>
+                        <p>spc그룹의 최신뉴스를 확인해보세요.</p>
+                    </div>
+                    <div class="main_news_view">
+                        <div class="main_view_left">
+                            <div class="prev_button"></div>
+                        </div>
+                        <div class="main_view_right">
+                            <div class="next_button"></div>
+                        </div>
+                        <div class="main_view_all">
+                            <a href="/pages/media_hub/spc_news.html">
+                                <p>view all</p>
                             </a>
                         </div>
-                    </li>
-                    <li class="card">
-                        <div class="outline">
-                            <div class="card_image_02"><span class="blind">이미지</span></div>
-                            <div class="card_text_01">
-                                <div class="card_text_wrap_01">
-                                    <a href="https://www.happyconstore.com/">
-                                        <p>spc그룹 (주)파리크라상, 2022년 제1회 『소비자권익대상』 수상</p>
+                    </div>
+                </div>
+                <div class="main_news_wrap_02">
+                    <div class="main_news_card">
+                        <!-- <ul>
+                            <li class="card">
+                                <div class="outline">
+                                    <a target="_blank" href="https://www.happyconstore.com/">
+                                    <div class="card_image_01"><span class="blind">이미지</span></div>
+                                    <div class="card_text_01">
+                                        <div class="card_text_wrap_01">
+                                            <p>spc그룹 파리바게뜨,말레이시아 진출 "할랄시장 본격 공략"</p>
+                                        </div>
+                                        <div class="card_text_wrap_02">
+                                            <b>2022.06.20</b>
+                                            <div class="view_more">
+                                            <a target="_blank" href="https://www.naver.com/">view more</a>
+                                            </div>
+                                        </div>  
+                                    </div>
                                     </a>
                                 </div>
-                                <div class="card_text_wrap_02">
-                                    <b>2022.06.10</b>
-                                    <div class="view_more">
-                                        <a href="https://www.happyconstore.com/">view more</a>
+                            </li>
+                            <li class="card">
+                                <div class="outline">
+                                    <div class="card_image_02"><span class="blind">이미지</span></div>
+                                    <div class="card_text_01">
+                                        <div class="card_text_wrap_01">
+                                            <a target="_blank" href="https://www.happyconstore.com/">
+                                                <p>spc그룹 (주)파리크라상, 2022년 제1회 『소비자권익대상』 수상</p>
+                                            </a>
+                                        </div>
+                                        <div class="card_text_wrap_02">
+                                            <b>2022.06.10</b>
+                                            <div class="view_more">
+                                                <a target="_blank" href="https://www.happyconstore.com/">view more</a>
+                                            </div>
+                                        </div>
+                                        
                                     </div>
                                 </div>
-                                
-                            </div>
-                        </div>
-                    </li>
-                    <li class="card">
-                        <div class="outline">
-                            <div class="card_image_03"><span class="blind">이미지</span></div>
-                            <div class="card_text_01">
-                                <div class="card_text_wrap_01">
-                                    <a href="https://www.happyconstore.com/">
-                                        <p>SPC그룹, 프랑스 샌드위치&샐러드 브랜드 ‘리나스’ 인수</p>
-                                    </a>
+                            </li>
+                            <li class="card">
+                                <div class="outline">
+                                    <div class="card_image_03"><span class="blind">이미지</span></div>
+                                    <div class="card_text_01">
+                                        <div class="card_text_wrap_01">
+                                            <a target="_blank" href="https://www.happyconstore.com/">
+                                                <p>SPC그룹, 프랑스 샌드위치&샐러드 브랜드 ‘리나스’ 인수</p>
+                                            </a>
+                                        </div>
+                                        <div class="card_text_wrap_02">
+                                            <b>2022.06.07</b>
+                                            <div class="view_more">
+                                                <a target="_blank" href="https://www.happyconstore.com/">view more</a>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
                                 </div>
-                                <div class="card_text_wrap_02">
+                            </li>
+                        </ul> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- SPC NEWS 박스 -->
+
+    <section id="section_box7">
+        <h1 class="blind">section_box7</h1>
+        <div class="container">
+            <div class="main_magazine_wrap_01">
+                <div class="main_magazine_text">
+                    <h2>spc magazine</h2>
+                    <p>spc매거진 뉴스레터로 새소식을 접해보세요.</p>
+                </div>
+                <div class="main_view_all">
+                    <p>view all</p>
+                </div>
+            </div>
+            <div class="main_magazine_wrap_02">
+                <div class="main_magazine_card">
+                    <ul>
+                        <li class="card">
+                            <div class="outline">
+                                <div class="card_image_01"><span class="blind">spc magazine 이미지1</span></div>
+                                <div class="card_text_01">
                                     <b>2022.06.07</b>
-                                    <div class="view_more">
-                                        <a href="https://www.happyconstore.com/">view more</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="card_line_right"></li>
+                        <li class="card_line_left"></li>
+                        <li class="card">
+                            <div class="outline">
+                                <div class="card_image_02"><span class="blind">spc magazine 이미지2</span></div>
+                                <div class="card_text_01">
+                                    <b>2022.03.31</b>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="card_line_right"></li>
+                        <li class="card_line_left"></li>
+                        <li class="card">
+                            <div class="outline">
+                                <div class="card_image_03"><span class="blind">spc magazine 이미지3</span></div>
+                                <div class="card_text_01">
+                                    <b>2022.02.28</b>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="card_line_right"></li>
+                        <li class="card_line_left"></li>
+                        <li class="card">
+                            <div class="outline">
+                                <div class="card_image_04"><span class="blind">spc magazine 이미지4</span></div>
+                                <div class="card_text_01">
+                                    <b>2022.01.31</b>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section><!-- SPC MAGAZINE 박스 -->
+
+    <section id="section_box8">
+        <h3 class="blind">section_box8</h3>
+        <div class="youtube_box_bg">
+            <div class="blind">황토색 유튜브 박스</div>
+        </div>
+        <div class="container">
+            <div class="main_youtube_box">
+                <div class="main_youtube_wrap_01">
+                    <div class="main_youtube_text">
+                        <h2>youtube</h2>
+                        <p>spc그룹의 다양한 영상콘텐츠를 즐기세요.</p>
+                    </div>
+                    <div class="main_youtube_view">
+                        <div class="main_view_left swiper-button-prev-youtube">
+                            <div class="prev_button"></div>
+                        </div>
+                        <div class="main_view_right swiper-button-next-youtube">
+                            <div class="next_button"></div>
+                        </div>
+                        <div class="main_view_all">
+                            <a href="./pages/media_hub/spc_youtube.html">
+                                <p>view all</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="main_youtube_wrap_02">
+                        <div class="main_youtube_card swiper-container-youtube">
+                            <ul class="swiper-wrapper">
+                                <li class="card swiper-slide">
+                                    <a href="https://www.youtube.com/watch?v=OIXEf_kDuKU" target="_blank">
+                                        <div class="outline">
+                                            <div class="card_image card_image_01"><span class="blind">이미지</span></div>
+                                            <div class="card_text_01">
+                                                <div class="card_text_wrap_01">
+                                                    <p>[SPC MAGAZINE] 다시 만난 행복상생 무안 양파</p>
+                                                </div>
+                                                <div class="card_text_wrap_02">
+                                                    <b>2022-04-27</b>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="card swiper-slide">
+                                    <a href="https://www.youtube.com/watch?v=uipP1jqIh14" target="_blank">
+                                        <div class="outline">
+                                            <div class="card_image card_image_02"><span class="blind">이미지</span></div>
+                                            <div class="card_text_01">
+                                                <div class="card_text_wrap_01">
+                                                    <p>[파리바게뜨] 이 남자.. 딸기🍓에 '진심'이다..!👀 논산 딸기밭에서 청년농부 박태준님을 만나봄💙</p>
+                                                </div>
+                                                <div class="card_text_wrap_02">
+                                                    <b>2022-03-22</b>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="card swiper-slide">
+                                    <a href="https://www.youtube.com/watch?v=fnpwqZLZ3IM&feature=emb_title" target="_blank">
+                                        <div class="outline">
+                                            <div class="card_image card_image_03"><span class="blind">이미지</span></div>
+                                            <div class="card_text_01">
+                                                <div class="card_text_wrap_01">
+                                                    <p>[SPC MAGAZINE] 안전문화 정착에 앞장서는 SPC그룹</p>
+                                                </div>
+                                                <div class="card_text_wrap_02">
+                                                    <b>2022-02-28</b>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="card swiper-slide">
+                                    <a href="https://www.youtube.com/watch?v=uipP1jqIh14" target="_blank">
+                                        <div class="outline">
+                                            <div class="card_image card_image_04"><span class="blind">이미지</span></div>
+                                            <div class="card_text_01">
+                                                <div class="card_text_wrap_01">
+                                                    <p>[Teatra 브랜드 홍보영상]</p>
+                                                </div>
+                                                <div class="card_text_wrap_02">
+                                                    <b>2022-01-24</b>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="card swiper-slide">
+                                    <a href="https://www.youtube.com/watch?v=OIXEf_kDuKU" target="_blank">
+                                        <div class="outline">
+                                            <div class="card_image card_image_05"><span class="blind">이미지</span></div>
+                                            <div class="card_text_01">
+                                                <div class="card_text_wrap_01">
+                                                    <p>[SPC MAGAZINE] 커피앳웍스 발효커피 세미나 현장</p>
+                                                </div>
+                                                <div class="card_text_wrap_02">
+                                                    <b>2021-11-30</b>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="card swiper-slide">
+                                    <a href="https://www.youtube.com/watch?v=uipP1jqIh14" target="_blank">
+                                        <div class="outline">
+                                            <div class="card_image card_image_06"><span class="blind">이미지</span></div>
+                                            <div class="card_text_01">
+                                                <div class="card_text_wrap_01">
+                                                    <p>[SPC MAGAZINE] SPC그룹만의 커피 문화공간, OCS에 가다</p>
+                                                </div>
+                                                <div class="card_text_wrap_02">
+                                                    <b>2021-11-16</b>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="card swiper-slide">
+                                    <a href="https://www.youtube.com/watch?v=uipP1jqIh14" target="_blank">
+                                        <div class="outline">
+                                            <div class="card_image card_image_07"><span class="blind">이미지</span></div>
+                                            <div class="card_text_01">
+                                                <div class="card_text_wrap_01">
+                                                    <p>[SPC MAGAZINE] SPC삼립이 운영하는 가평 휴게소로 오세요!</p>
+                                                </div>
+                                                <div class="card_text_wrap_02">
+                                                    <b>2021-08-31</b>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="card swiper-slide">
+                                    <a href="https://www.youtube.com/watch?v=uipP1jqIh14" target="_blank">
+                                        <div class="outline">
+                                            <div class="card_image card_image_08"><span class="blind">이미지</span></div>
+                                            <div class="card_text_01">
+                                                <div class="card_text_wrap_01">
+                                                    <p>[SPC MAGAZINE] 파리바게뜨 캄보디아 1호점 오픈!</p>
+                                                </div>
+                                                <div class="card_text_wrap_02">
+                                                    <b>2021-06-24</b>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- YOUTUBE 박스 -->
+
+    <section id="section_box9">
+        <h3 class="blind">section_box9</h3>
+        <div class="container">
+            <div class="main_sns_box">
+                <div class="main_sns_wrap_01">
+                    <div class="main_sns_text">
+                        <h2>sns</h2>
+                        <p>푸드 프렌트와 레시피, 다양한 이벤트를 만나보세요.</p>
+                    </div>
+                    <div class="main_sns_view">
+                        <div class="main_view_left swiper-button-prev-sns">
+                            <div class="prev_button"></div>
+                        </div>
+                        <div class="main_view_right swiper-button-next-sns">
+                            <div class="next_button"></div>
+                        </div>
+                        <div class="main_view_all">
+                            <a href="./pages/media_hub/spc_sns.html">
+                                <p>view all</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="main_sns_wrap_02">
+                    <div class="main_sns_card swiper-container-sns">
+                        <ul class="swiper-wrapper">
+                            <li class="card swiper-slide">
+                                <a href="https://www.instagram.com/p/CiezgWgLRdk/" target="_blank">
+                                    <div class="outline">
+                                        <div class="card_image card_image_01"><span class="blind">sns_이미지_01</span></div>
                                     </div>
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
-<section id="section_box7">
-    <h1 class="blind">section_box7</h1>
-    <div class="container">
-        <div class="main_magazine_wrap_01">
-            <div class="main_magazine_text">
-                <h2>spc magazine</h2>
-                <p>spc매거진 뉴스레터로 새소식을 접해보세요.</p>
-            </div>
-            <div class="main_view_all">
-                <p>view all</p>
-            </div>
-        </div>
-        <div class="main_magazine_wrap_02">
-            <div class="main_magazine_card">
-                <ul>
-                    <li class="card">
-                        <div class="outline">
-                            <div class="card_image_01"><span class="blind">spc magazine 이미지1</span></div>
-                            <div class="card_text_01">
-                                <b>2022.06.07</b>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="card_line_right"></li>
-                    <li class="card_line_left"></li>
-                    <li class="card">
-                        <div class="outline">
-                            <div class="card_image_02"><span class="blind">spc magazine 이미지2</span></div>
-                            <div class="card_text_01">
-                                <b>2022.03.31</b>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="card_line_right"></li>
-                    <li class="card_line_left"></li>
-                    <li class="card">
-                        <div class="outline">
-                            <div class="card_image_03"><span class="blind">spc magazine 이미지3</span></div>
-                            <div class="card_text_01">
-                                <b>2022.02.28</b>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="card_line_right"></li>
-                    <li class="card_line_left"></li>
-                    <li class="card">
-                        <div class="outline">
-                            <div class="card_image_04"><span class="blind">spc magazine 이미지4</span></div>
-                            <div class="card_text_01">
-                                <b>2022.01.31</b>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
-<section id="section_box8">
-    <h1 class="blind">section_box8</h1>
-    <div class="youtube_box_bg"><div class="blind">황토색 유튜브 박스</div></div>
-    <div class="container">
-        <div class="main_youtube_wrap_01">
-            <div class="main_youtube_text">
-                <h2>youtube</h2>
-                <p>spc그룹의 다양한 영상콘텐츠를 즐기세요.</p>
-            </div>
-        </div>
-        <div class="main_youtube_wrap_02">
-            <div class="main_youtube_view">
-                <div class="main_view_all">
-                    <p>view all</p>
-                </div>
-                <div class="main_view_right">
-                    <div class="next_button"></div>
-                </div>
-                <div class="main_view_left">
-                    <div class="prev_button"></div>
+                                </a>
+                            </li>
+                            <li class="card swiper-slide">
+                                <a href="https://www.instagram.com/p/Ch6wnsBhKq_/" target="_blank">
+                                    <div class="outline">
+                                        <div class="card_image card_image_02"><span class="blind">sns_이미지_02</span></div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="card swiper-slide">
+                                <a href="https://www.instagram.com/p/Cht4buEOhmV/" target="_blank">
+                                    <div class="outline">
+                                        <div class="card_image card_image_03"><span class="blind">sns_이미지_03</span></div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="card swiper-slide">
+                                <a href="https://www.instagram.com/p/ChovY47DuGH/" target="_blank">
+                                    <div class="outline">
+                                        <div class="card_image card_image_04"><span class="blind">sns_이미지_04</span></div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="card swiper-slide">
+                                <a href="https://www.instagram.com/p/Cg339yFBwC8/" target="_blank">
+                                    <div class="outline">
+                                        <div class="card_image card_image_05"><span class="blind">sns_이미지_05</span></div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="card swiper-slide">
+                                <a href="https://www.instagram.com/p/Cg336fzsKuz/" target="_blank">
+                                    <div class="outline">
+                                        <div class="card_image card_image_06"><span class="blind">sns_이미지_06</span></div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="card swiper-slide">
+                                <a href="https://www.instagram.com/p/CglyI_pOaYy/" target="_blank">
+                                    <div class="outline">
+                                        <div class="card_image card_image_07"><span class="blind">sns_이미지_07</span></div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="card swiper-slide">
+                                <a href="https://www.instagram.com/p/CgjNXO6uf5c/" target="_blank">
+                                    <div class="outline">
+                                        <div class="card_image card_image_08"><span class="blind">sns_이미지_08</span></div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="card swiper-slide">
+                                <a href="https://www.instagram.com/p/CgOnAFTFERg/" target="_blank">
+                                    <div class="outline">
+                                        <div class="card_image card_image_09"><span class="blind">sns_이미지_09</span></div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="card swiper-slide">
+                                <a href="https://www.instagram.com/p/CgBvGnjvMYN/" target="_blank">
+                                    <div class="outline">
+                                        <div class="card_image card_image_10"><span class="blind">sns_이미지_10</span></div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="card swiper-slide">
+                                <a href="https://www.instagram.com/p/Cf8lpFUvlKF/" target="_blank">
+                                    <div class="outline">
+                                        <div class="card_image card_image_11"><span class="blind">sns_이미지_11</span></div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="card swiper-slide">
+                                <a href="https://www.instagram.com/p/Cf3b2Uir_Em/" target="_blank">
+                                    <div class="outline">
+                                        <div class="card_image card_image_12"><span class="blind">sns_이미지_12</span></div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="main_youtube_wrap_03">
-            <div class="main_youtube_card">
-                <ul>
-                    <li class="card">
-                        <div class="outline">
-                            <div class="card_image_01"><span class="blind">이미지</span></div>
-                            <div class="card_text_01">
-                                <div class="card_text_wrap_01">
-                                    <a href="https://www.happyconstore.com/">
-                                        <p>spc그룹 파리바게뜨,말레이시아 진출 "할랄시장 본격 공략"</p>
-                                    </a>
-                                </div>
-                                <div class="card_text_wrap_02">
-                                    <b>2022-04-27</b>
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </li>
-                    <li class="card">
-                        <div class="outline">
-                            <div class="card_image_02"><span class="blind">이미지</span></div>
-                            <div class="card_text_01">
-                                <div class="card_text_wrap_01">
-                                    <a href="https://www.happyconstore.com/">
-                                        <p>spc그룹 (주)파리크라상, 2022년 제1회 『소비자권익대상』 수상</p>
-                                    </a>
-                                </div>
-                                <div class="card_text_wrap_02">
-                                    <b>2022-03-22</b>
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </li>
-                    <li class="card">
-                        <div class="outline">
-                            <div class="card_image_03"><span class="blind">이미지</span></div>
-                            <div class="card_text_01">
-                                <div class="card_text_wrap_01">
-                                    <a href="https://www.happyconstore.com/">
-                                        <p>SPC그룹, 프랑스 샌드위치&샐러드 브랜드 ‘리나스’ 인수</p>
-                                    </a>
-                                </div>
-                                <div class="card_text_wrap_02">
-                                    <b>2022-02-28</b>
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
-<section id="section_box9">
-    <h1 class="blind">section_box9</h1>
-    <div class="container">
-        <div class="main_sns_wrap_01">
-            <div class="main_sns_text">
-                <h2>sns</h2>
-                <p>푸드 프렌트와 레시피, 다양한 이벤트를 만나보세요.</p>
-            </div>
-            <div class="main_sns_view">
-                <div class="main_view_left">
-                    <div class="prev_button"></div>
-                </div>
-                <div class="main_view_right">
-                    <div class="next_button"></div>
-                </div>
-                <div class="main_view_all">
-                    <p>view all</p>
-                </div>
-            </div>
-        </div>
-        <div class="main_sns_wrap_02">
-            <div class="main_sns_card">
-                <ul>
-                    <li class="card">
-                        <div class="outline">
-                            <div class="card_image_01"><span class="blind">이미지</span></div>
-                        </div>
-                    </li>
-                    <li class="card">
-                        <div class="outline">
-                            <div class="card_image_02"><span class="blind">이미지</span></div>
-                        </div>
-                    </li>
-                    <li class="card">
-                        <div class="outline">
-                            <div class="card_image_03"><span class="blind">이미지</span></div>
-                        </div>
-                    </li>
-                    <li class="card">
-                        <div class="outline">
-                            <div class="card_image_04"><span class="blind">이미지</span></div>
-                        </div>
-                    </li>
-                    <li class="card">
-                        <div class="outline">
-                            <div class="card_image_05"><span class="blind">이미지</span></div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
-<footer id="footer_box">
+    </section><!-- SNS 박스 -->
+    
+    <footer id="footer_box">
         <div class="main_footer_wrap_01">
-            <div class="main_footer_icon">
-                <ul>
-                    <li class="prev_button">
-                        <div class="card_image_01"><span class="blind">prev 버튼</span></div>
+            <div class="prev_button swiper-button-prev-footer">
+                <span class="blind">prev 버튼</span>
+            </div>
+            <div class="main_footer_icon swiper-container-footer">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide">
+                        <div class="icon icon_01">
+                            <span class="blind">SPC SAMLIP</span>
+                        </div>
                     </li>
-                    <li class="icon_01">
-                        <div class="card_image_02"><span class="blind">SPC SAMLIP</span></div>
+                    <li class="swiper-slide">
+                        <div class="icon icon_02">
+                            <span class="blind">SPC PACK</span>
+                        </div>
                     </li>
-                    <li class="icon_02">
-                        <div class="card_image_03"><span class="blind">SPC PACK</span></div>
+                    <li class="swiper-slide">
+                        <div class="icon icon_03">
+                            <span class="blind">SPC LOGISTICS</span>
+                        </div>
                     </li>
-                    <li class="icon_03">
-                        <div class="card_image_04"><span class="blind">SPC LOGISTICS</span></div>
+                    <li class="swiper-slide">
+                        <div class="icon icon_04">
+                            <span class="blind">SPC GFS</span>
+                        </div>
                     </li>
-                    <li class="icon_04">
-                        <div class="card_image_05"><span class="blind">SPC FPS</span></div>
+                    <li class="swiper-slide">
+                        <div class="icon icon_01">
+                            <span class="blind">SPC SAMLIP</span>
+                        </div>
                     </li>
-                    <li class="icon_01">
-                        <div class="card_image_05"><span class="blind">SPC SAMLIP</span></div>
+                    <li class="swiper-slide">
+                        <div class="icon icon_02">
+                            <span class="blind">SPC PACK</span>
+                        </div>
                     </li>
-                    <li class="next_button">
-                        <div class="card_image_05"><span class="blind">next 버튼</span></div>
+                    <li class="swiper-slide">
+                        <div class="icon icon_03">
+                            <span class="blind">SPC LOGISTICS</span>
+                        </div>
+                    </li>
+                    <li class="swiper-slide">
+                        <div class="icon icon_04">
+                            <span class="blind">SPC GFS</span>
+                        </div>
                     </li>
                 </ul>
+            </div>
+            <div class="next_button swiper-button-next-footer">
+                <span class="blind">next 버튼</span>
             </div>
         </div>
         <div class="main_footer_wrap_02">
             <div class="main_footer_logo">
                 <h1>
-                    <a href="#">
-                        <div class="footer_logo"></div>
+                    <a class="footer_logo" href="#">
+                        <span class="blind">spc footer logo</span>
                     </a>
                 </h1>
             </div>
             <div class="main_footer_info">
                 <ul>
-                    <li class="font_18_b">개인정보처리방침</li>
-                    <li class="font_18_b">이메일수집 거부</li>
-                    <li class="font_18_b">거래희망사전등록</li>
-                    <li class="font_18_b">오시는길</li>
-                    <li class="font_18_b">공지사항</li>
+                    <li class="font_18_b active">
+                        <a href="https://www.spc.co.kr/privacy-policy/" target="_blank">
+                            개인정보처리방침
+                        </a>
+                    </li>
+                    <li class="font_18_b">
+                        <a href="https://www.spc.co.kr/email-privacy/" target="_blank">
+                            이메일수집 거부
+                        </a>
+                    </li>
+                    <li class="font_18_b">
+                        <a href="http://happy.spc.co.kr/indexframe.jsp" target="_blank">
+                            거래희망사전등록
+                        </a>
+                    </li>
+                    <li class="font_18_b">
+                        <a href="./pages/contact/spc_address.html" target="_blank">
+                            오시는길
+                        </a>
+                    </li>
+                    <li class="font_18_b">
+                        <a href="https://www.spc.co.kr/notice/" target="_blank">
+                            공지사항
+                        </a>
+                    </li>
                 </ul>
                 <address class="font_18">서울시 서초구 양재동 남부순환로 2620(양재동 11-149)SPC그룹
-                        <br>
-                        Copyright SPC All rights reserverd.
+                    <br>
+                    Copyright SPC All rights reserverd.
                 </address>
             </div>
             <div class="main_footer_icon_wrap">
                 <ul>
                     <li>
-                        <span class="blind">happy point</span>
-                        <div class="icon_image"></div>
-                        <div class="icon_text font_18">happypoint</div>
+                        <a target="_blank" href="https://www.happypointcard.com/page/presentation/app.spc">
+                            <span class="blind">happy point</span>
+                            <div class="icon_image_box">
+                                <div class="happypoint_icon icon"></div>
+                            </div>
+                            <div class="icon_text">
+                                <p class="font_18">happypoint</p>
+                            </div>
+                        </a>
                     </li>
                     <li>
-                        <span class="blind">instagram</span>
-                        <div class="icon_text font_18">instagram</div>
+                        <a target="_blank" href="https://www.instagram.com/spc_group/">
+                            <span class="blind">instagram</span>
+                            <div class="icon_image_box">
+                                <div class="icon instagram_icon ">
+                                </div>
+                            </div>
+                            <div class="icon_text">
+                                <p class="font_18">instagram</p>
+                            </div>
+                        </a>
                     </li>
                     <li>
-                        <span class="blind">facebook</span>
-                        <div class="icon_text_facebook font_18">facebook</div>
+                        <a target="_blank" href="https://www.facebook.com/happySPC">
+                            <span class="blind">facebook</span>
+                            <div class="icon_image_box">
+                                <div class="facebook_icon icon"></div>
+                            </div>
+                            <div class="icon_text">
+                                <p class="font_18">facebook</p>
+                            </div>
+                        </a>
                     </li>
                     <li>
-                        <span class="blind">youtube</span>
-                        <div class="icon_text font_18">youtube</div>
+                        <a target="_blank" href="https://www.youtube.com/channel/UCiyg3rAdPOJN4eKAgAs5FOQ">
+                            <span class="blind">youtube</span>
+                            <div class="icon_image_box">
+                                <div class="youtube_icon icon"></div>
+                            </div>
+                            <div class="icon_text">
+                                <p class="font_18">youtube</p>
+                            </div>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -720,10 +967,88 @@
         <div class="main_footer_wrap_03">
             <div class="main_family_site">
                 <p>family site</p>
-                <div class="top_arrow"></div>
+                <div class="arrow arrow_top"></div>
+                <div class="scroll_option">
+                    <ul class="scroll_option_ul">
+                        <li class="scroll_option_li">
+                            <a href="http://www.brkorea.co.kr/" target="_blank">비알코리아㈜</a>
+                        </li>
+                        <li class="scroll_option_li">
+                            <a href="https://spcsamlip.co.kr/" target="_blank">㈜SPC삼립</a>
+                        </li>
+                        <li class="scroll_option_li">
+                            <a href="https://www.paris.co.kr/" target="_blank">파리바게뜨</a>
+                        </li>
+                        <li class="scroll_option_li">
+                            <a href="https://pariscroissantorder.com/" target="_blank">파리크라상</a>
+                        </li>
+                        <li class="scroll_option_li">
+                            <a href="http://www.baskinrobbins.co.kr/" target="_blank">배스킨라빈스</a>
+                        </li>
+                        <li class="scroll_option_li">
+                            <a href="http://www.dunkindonuts.co.kr/" target="_blank">던킨도너츠</a>
+                        </li>
+                        <li class="scroll_option_li">
+                            <a href="http://www.shakeshack.kr/" target="_blank">쉐이크쉑</a>
+                        </li>
+                        <li class="scroll_option_li">
+                            <a href="https://www.caffe-pascucci.co.kr/index.asp" target="_blank">파스쿠찌</a>
+                        </li>
+                        <li class="scroll_option_li">
+                            <a href="http://www.jambajuice.co.kr/" target="_blank">잠바주스</a>
+                        </li>
+                        <li class="scroll_option_li">
+                            <a href="http://dining.spc.co.kr/piginthegarden.do" target="_blank">피그인더가든</a>
+                        </li>
+                        <li class="scroll_option_li">
+                            <a href="https://spcsamlip.co.kr/brand/glucks-schwein/" target="_blank">그릭슈바인</a>
+                        </li>
+                        <li class="scroll_option_li">
+                            <a href="https://www.bizeun.co.kr/" target="_blank">빚은</a>
+                        </li>
+                        <li class="scroll_option_li">
+                            <a href="http://dining.spc.co.kr/index.do" target="_blank">SPC외식브랜드</a>
+                        </li>
+                        <li class="scroll_option_li">
+                            <a href="https://www.dqueenscatering.com/" target="_blank">디퀸즈케이터링</a>
+                        </li>
+                        <li class="scroll_option_li">
+                            <a href="https://www.spcculinary.co.kr/index.do" target="_blank">SPC컬러너리아카데미</a>
+                        </li>
+                        <li class="scroll_option_li">
+                            <a href="https://www.happypointcard.com/page/main/index.spc;jsessionid=F50F99414CFE0D8035CC5AD1CE9BB7E7" target="_blank">해피포인트카드</a>
+                        </li>
+                        <li class="scroll_option_li">
+                            <a href="https://www.hicafemall.com/" target="_blank">하이카페몰</a>
+                        </li>
+                        <li class="scroll_option_li">
+                            <a href="https://www.spcgfs.co.kr/" target="_blank">SPC GFS</a>
+                        </li>
+                        <li class="scroll_option_li">
+                            <a href="http://www.secta9ine.co.kr/" target="_blank">㈜섹타나인</a>
+                        </li>
+                        <li class="scroll_option_li">
+                            <a href="http://spcpack.co.kr/" target="_blank">SPC PACK</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-</footer>
-  </div>
+    </footer>
+    <!--FOOTER 박스 -->
+  <!-- script -->
+  <script src="js/main/mobile.js"></script>
+    <script src="js/main/scroll.js"></script>
+    <script src="js/main/main_bg_slide.js"></script>
+    <script src="js/main/main_group.hover.js"></script>
+    <script src="js/main/main_brand_slide.js"></script>
+    <script src="js/main/main_news_slide.js"></script>
+
+    <script src="js/common/global_button.js"></script>
+    <script src="js/common/family_site_button.js"></script>
+
+    <script src="js/common/swiper.min.js"></script>
+    <script src="js/main/main_swiper_slide.js"></script>
 </body>
+
 </html>

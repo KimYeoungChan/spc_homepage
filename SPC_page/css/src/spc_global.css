@@ -44,7 +44,7 @@
 .logo_img {
     width: 150px;
     height: 50px;
-    background-image: url(../../img/main_img/header_box/gnb_logo_new.png);
+    background-image: url(/img/main_img/header_box/gnb_logo_new.png);
     background-repeat: no-repeat;
     background-size: 150px 50px;
 }
@@ -91,7 +91,7 @@
 #header_box .header_nav .main_li:last-child {
     width: 30px;
     height: 30px;
-    background: url(../../img/main_img/header_box/global_icon_black.png) no-repeat center center / contain !important;
+    background: url(/img/main_img/header_box/global_icon_black.png) no-repeat center center / contain !important;
     cursor: pointer;
 }/*기본 header 영역*/
 
@@ -261,7 +261,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
-    background-image: url('../../img/spc_global_img/global-map.png');
+    background-image: url('/img/spc_global_img/global-map.png');
 }
 
 /*section_box3///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
@@ -321,16 +321,16 @@
 }
 
 #section_box4 .card_01{
-    background-image: url(../../img/spc_global_img/global-china.png);
+    background-image: url('/img/spc_global_img/global-china.png');
 }
 #section_box4 .card_02{
-    background-image: url(../../img/spc_global_img/global-north-america.png);
+    background-image: url('/img/spc_global_img/global-north-america.png');
 }
 #section_box4 .card_03{
-    background-image: url(../../img/spc_global_img/global-south-eastasia.png);
+    background-image: url('/img/spc_global_img/global-south-eastasia.png');
 }
 #section_box4 .card_04{
-    background-image: url(../../img/spc_global_img/global-france.jpg);
+    background-image: url('/img/spc_global_img/global-france.jpg');
 }
 
 /*section_box4///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/

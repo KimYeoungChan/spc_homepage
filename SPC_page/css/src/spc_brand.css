@@ -56,7 +56,7 @@
 .logo_img {
     width: 150px;
     height: 50px;
-    background-image: url(../../img/main_img/header_box/gnb_logo_new.png);
+    background-image: url(/img/main_img/header_box/gnb_logo_new.png);
     background-repeat: no-repeat;
     background-size: 150px 50px;
 }
@@ -103,7 +103,7 @@
 #header_box .header_nav .main_li:last-child {
     width: 30px;
     height: 30px;
-    background: url(../../img/main_img/header_box/global_icon_black.png) no-repeat center center / contain !important;
+    background: url(/img/main_img/header_box/global_icon_black.png) no-repeat center center / contain !important;
     cursor: pointer;
 }/*기본 header 영역*/
 

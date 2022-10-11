@@ -61,7 +61,7 @@
 .main_footer_icon .icon_01 {
   width: 200px;
   height: 150px;
-  background-image: url(../../img/main_img/footer_box/footer_icon_box/SAMLIP.png);
+  background-image: url("img/main_img/footer_box/footer_icon_box/SAMLIP.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -70,7 +70,7 @@
 .main_footer_icon .icon_02 {
   width: 200px;
   height: 150px;
-  background-image: url(../../img/main_img/footer_box/footer_icon_box/PACK.png);
+  background-image: url("/img/main_img/footer_box/footer_icon_box/PACK.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -79,7 +79,7 @@
 .main_footer_icon .icon_03 {
   width: 200px;
   height: 150px;
-  background-image: url(../../img/main_img/footer_box/footer_icon_box/LOGITICS.png);
+  background-image: url("/img/main_img/footer_box/footer_icon_box/LOGITICS.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -89,7 +89,7 @@
 .main_footer_icon .icon_04 {
   width: 200px;
   height: 150px;
-  background-image: url(../../img/main_img/footer_box/footer_icon_box/GFS.png);
+  background-image: url("/img/main_img/footer_box/footer_icon_box/GFS.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -132,7 +132,7 @@
 .main_footer_logo .footer_logo {
   width: 100px;
   height: 100px;
-  background-image: url(../../img/main_img/footer_box/footer_logo.png);
+  background-image: url("/img/main_img/footer_box/footer_logo.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -176,7 +176,7 @@
   width: 80px;
   height: 80px;
   padding-right: 20px;
-  background-image: url(../../img/main_img/footer_box/footer_happy.png);
+  background-image: url("/img/main_img/footer_box/footer_happy.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -186,7 +186,7 @@
   width: 80px;
   height: 80px;
   padding-right: 20px;
-  background-image: url(../../img/main_img/footer_box/footer_happy_hov.png);
+  background-image: url("/img/main_img/footer_box/footer_happy_hov.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -197,7 +197,7 @@
   width: 80px;
   height: 80px;
   padding-right: 20px;
-  background-image: url(../../img/main_img/footer_box/footer_sns_insta.png);
+  background-image: url("/im/main_img/footer_box/footer_sns_insta.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -207,7 +207,7 @@
   width: 80px;
   height: 80px;
   padding-right: 20px;
-  background-image: url(../../img/main_img/footer_box/footer_sns_insta_hov.png);
+  background-image: url("/img/main_img/footer_box/footer_sns_insta_hov.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -218,7 +218,7 @@
   width: 80px;
   height: 40px;
   padding-right: 20px;
-  background-image: url(../../img/main_img/footer_box/footer_sns_facebook.png);
+  background-image: url("/img/main_img/footer_box/footer_sns_facebook.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -229,7 +229,7 @@
   width: 80px;
   height: 40px;
   padding-right: 20px;
-  background-image: url(../../img/main_img/footer_box/footer_sns_facebook_hov.png);
+  background-image: url("/img/main_img/footer_box/footer_sns_facebook_hov.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -248,7 +248,7 @@
   width: 80px;
   height: 80px;
   padding-right: 20px;
-  background-image: url(../../img/main_img/footer_box/footer_sns_youtube.png);
+  background-image: url("/img/main_img/footer_box/footer_sns_youtube.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -258,7 +258,7 @@
   width: 80px;
   height: 80px;
   padding-right: 20px;
-  background-image: url(../../img/main_img/footer_box/footer_sns_youtube_hov.png);
+  background-image: url("/img/main_img/footer_box/footer_sns_youtube_hov.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
